@@ -22,7 +22,7 @@ end
 
 # speakers.each_with_index { |speaker, index| "Hello, #{speakers[index]}! You'll be assigned to room #{number}!" }
 
-def printer 
+def printer(attendees)
   batch_badge_creator(attendees).each do |x|
     puts x 
   end
